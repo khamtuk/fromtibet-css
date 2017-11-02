@@ -1,0 +1,124 @@
+.main2 {
+  padding: 5px;
+  margin: 5px;
+  /*  background-color: grey;*/
+  min-height: 70vh;
+  text-align: center;
+}
+
+b {
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.add {
+  font-family: 'Sofadi One';
+  font-size: 18px;
+}
+
+.contact-box {
+  padding-top: 60px;
+}
+
+/*singing bowl page*/
+
+.sing {
+  width: 100%;
+  height: 50vh;
+}
+
+.sing2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.info {
+  width: 50%;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 120%;
+  padding: 20px;
+}
+
+.bowlimg {
+  position: relative;
+  width: 20%;
+}
+
+.singimg {
+  width: 100%;
+}
+
+.singing {
+  min-height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+/*====media queries===*/
+
+@media(min-width: 768px) {
+  .main2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 5px;
+    min-height: 70vh;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  .contact-box {
+    min-width: 100%;
+    text-align: center;
+  }
+  b {
+    font-size: 30px;
+  }
+  .add {
+    font-family: 'Sofadi One';
+    font-size: 24px;
+  }
+  /*singing bowl page*/
+  .singing {
+    min-height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  .sing {
+    width: 70vh;
+  }
+  .sing2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 95%;
+    width: 80%;
+  }
+}

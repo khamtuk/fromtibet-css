@@ -1,0 +1,345 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/*====header===*/
+
+header {
+  height: 20%;
+  width: 100%;
+}
+
+/*==== header links====*/
+
+.top-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 5);
+}
+
+.one, .two {
+  font-family: 'Sofadi One';
+  font-size: 80%;
+}
+
+a.one {
+  color: black;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/*===== main head====*/
+
+.top {
+  width: 100%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #145A32;
+  /*rgb(213, 93, 6);*/
+  background-image: url('../images/back.jpg'), url('../images/back2.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 30%, 30%;
+  background-position: right, left;
+}
+
+/*====logo====*/
+
+.logo1 {
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 12vh;
+  border-radius: 50%;
+}
+
+/*==== brand name====*/
+
+.name1 {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+  font-size: 250%;
+  text-align: center;
+  margin: 0;
+  font-family: 'Rammetto One';
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.brand {
+  font-family: 'Meddon';
+  margin-top: 13px;
+  margin-left: 10px;
+  font-size: 24px;
+  color: black;
+}
+
+/*=======main body====*/
+
+.main1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.box {
+  height: auto;
+  width: 100%;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.box2 {
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Sofadi One';
+}
+
+p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 120%;
+}
+
+/*=========FOOTER=======*/
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  background-color: #145A32/*rgb(213, 93, 6)*/
+  ;
+  min-height: 5vh;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.copyright {
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-shadow: 2px 2px 5px black;
+}
+
+a.two {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 900;
+}
+
+/*====SLIDE PICS====*/
+
+.mySlides {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10%;
+}
+
+/*==============================
+         media queries
+==============================*/
+
+@media(min-width: 768px) {
+  .top-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  p {
+    font-size: 95%;
+  }
+  .home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-right: 20px;
+  }
+  .top {
+    background-size: 35vh, 35vh;
+    width: 100%;
+  }
+  .one, .two {
+    font-size: 100%;
+  }
+  .main1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 5px;
+    min-height: 70vh;
+  }
+  .box1 {
+    -webkit-box-ordinal-group: -1;
+    -ms-flex-order: -2;
+    order: -2;
+  }
+  .box1, .box3 {
+    width: 25%;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+  .box2 {
+    width: 45%;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+  .footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .foot {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .name1 {
+    font-size: 600%;
+  }
+  .logo1 {
+    width: 15vh;
+  }
+  a.one:link {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-weight: 900;
+  }
+  a.one:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 180%;
+  }
+  a.one:visited {
+    color: black;
+    text-decoration: none;
+  }
+  a.two:link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 900;
+  }
+  a.two:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+  }
+  a.two:visited {
+    color: white;
+    text-decoration: none;
+  }
+}

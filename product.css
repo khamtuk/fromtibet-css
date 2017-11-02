@@ -1,0 +1,116 @@
+.main3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.pro {
+  margin: 5px;
+  padding: 5px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/*ritual*/
+
+.first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+/*jewellery and meditation logo*/
+
+.meditate, .jewell, .singingbowl {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*product links*/
+
+.one {
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 5);
+}
+
+/*====SLIDE PICS====*/
+
+.mySlides2 {
+  width: 80%;
+  height: 20%;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+/*meditation image*/
+
+.text {
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.second {
+  position: relative;
+}
+
+.container {
+  position: relative;
+}
+
+.stone {
+  width: 100%;
+}
+
+.container:hover .overlay {
+  opacity: 0.7;
+}
+
+/*------media query---*/
+
+@media(min-width: 768px) {
+  .main3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    min-height: 70vh;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .pro {
+    width: 30%;
+  }
+}
